@@ -9,7 +9,9 @@ The major components of the Hotel Reservation Application will consist of the fo
 2.	Java code. The second main component is the Java code itself—this is where we add our business logic for the app.
 3.	Java collections. Finally, we'll use Java collections for in-memory storage of the data we need for the app, such as the users' names, room availability, and so on.
 
+
 ![image](https://github.com/shwcl/Hotel-Reservation-App-Java/assets/52106536/8e84945a-3d59-4405-a650-7c36d26e92e7)
+
 
 ## Application Architecture
 The app will be separated into the following layers:
@@ -17,3 +19,6 @@ The app will be separated into the following layers:
 2.	Resources will act as our Application Programming Interface (API) to our UI.
 3.	Services will communicate with our resources, and each other, to build the business logic necessary to provide feedback to our UI.
 4.	Data models will be used to represent the domain that we're using within the system (e.g., rooms, reservations, and customers).
+
+
+![image](https://github.com/shwcl/Hotel-Reservation-App-Java/assets/52106536/0b8c80c3-3272-46fa-9955-4339073b8e30)
