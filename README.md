@@ -24,7 +24,7 @@ The app will be separated into the following layers:
 ![image](https://github.com/shwcl/Hotel-Reservation-App-Java/assets/52106536/0b8c80c3-3272-46fa-9955-4339073b8e30)
 
 
-##Layers
+## Layers
 The architecture use layers to support modularization and decoupling. For example, if we later decided to change our UI components to a webpage instead of a command-line interface, layering would support this. 
 Layering ensures there is no cross-communication calls from one layer to another. For example, a UI component should never communicate directly with a service. This would expose the service implementation to the UI and make it difficult for us to change it out later.
 
